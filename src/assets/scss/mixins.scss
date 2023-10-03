@@ -1,0 +1,12 @@
+@mixin svgFillStroke($color) {
+  path:not([stroke]) {
+    fill: $color;
+  }
+  path:not([fill]) {
+    stroke: $color;
+  }
+  path[fill][stroke] {
+    fill: $color;
+    stroke: $color;
+  }
+}

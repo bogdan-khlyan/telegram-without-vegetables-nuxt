@@ -1,0 +1,29 @@
+.default {
+  --bg: #FFFFFF;
+  --bg-light: #EDEFF5;
+
+  --button-bg: #EEF1F5;
+  --button-text-color: #0E0D25;
+  --button-hover-bg: #396DF7;
+  --button-hover-text-color: #FFFFFF;
+  --button-active-bg: #1c57f1;
+
+  --border-color: #EDEFF5;
+  --text-color: #303047;
+  --heading-color: #0E0D25;
+}
+
+.dark {
+  --bg: #0E1621;
+  --bg-light: #1F2936;
+
+  --button-bg: #242F3D;
+  --button-text-color: #F5F5F5;
+  --button-hover-bg: #396DF7;
+  --button-hover-text-color: #FFFFFF;
+  --button-active-bg: #1c57f1;
+
+  --border-color: #101921;
+  --text-color: #DCDCDC;
+  --heading-color: #F5F5F5;
+}
