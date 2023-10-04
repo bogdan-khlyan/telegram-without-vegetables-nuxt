@@ -36,6 +36,9 @@ function toggleTheme() {
   border-bottom: 1px solid var(--border-color);
   background-color: var(--bg-light);
   transition-duration: 300ms;
+  @media screen and (max-width: 1200px) {
+    height: 60px;
+  }
   @media screen and (max-height: 650px) {
     height: 60px;
   }

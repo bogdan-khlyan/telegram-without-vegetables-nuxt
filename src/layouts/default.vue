@@ -44,6 +44,10 @@ useHead({
     padding-top: 80px;
     box-sizing: border-box;
     min-height: calc(100vh - 80px);
+    @media screen and (max-width: 1200px) {
+      padding-top: 60px;
+      min-height: calc(100vh - 60px);
+    }
     @media screen and (max-height: 650px) {
       padding-top: 60px;
       min-height: calc(100vh - 60px);
