@@ -15,6 +15,9 @@
       <div class="index-page__description">
         <p>Проект с открытым исходным кодом. Если вы сомневаетесь в моей версии билда, можете проверить изменения, внесённые в официальный код клиента Telegram на
           <a href="https://github.com/bogdan-khlyan/telegram-without-vegetables" target="_blank">Github</a> и собрать приложение самостоятельно</p>
+        <p>Приложение имеет то же имя пакета, что и официальное приложение Telegram, <span class="red">поэтому для установки необходимо удалить официальную версию с вашего устройства.</span></p>
+        <p>Будут выходить обновления, но устанавливать их придется руками.</p>
+        <p>Протест будет продолжаться до момента появления функции отключения ненавистных мной историй.</p>
       </div>
       <div class="index-page__buttons">
         <div class="index-page__buttons--title">
@@ -106,6 +109,7 @@ import AndroidIcon from '@/assets/images/android-icon.svg'
       margin-top: 20px;
     }
     > p {
+      margin-top: 5px;
       text-align: center;
       font-size: 17px;
       font-style: normal;
@@ -131,6 +135,9 @@ import AndroidIcon from '@/assets/images/android-icon.svg'
     &--content {
       margin-top: 16px;
     }
+  }
+  .red {
+    color: rgba(243, 73, 66, 1);
   }
 }
 </style>
