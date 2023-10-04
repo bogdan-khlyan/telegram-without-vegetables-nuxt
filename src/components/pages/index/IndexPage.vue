@@ -48,9 +48,12 @@ import AndroidIcon from '@/assets/images/android-icon.svg'
     min-height: calc(100vh - 120px);
   }
   &__content {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 16px;
     max-width: 700px;
+    @media screen and (max-width: 420px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
   &__logo {
     margin: 0 auto;
@@ -58,9 +61,12 @@ import AndroidIcon from '@/assets/images/android-icon.svg'
   }
   &__title {
     margin-top: 20px;
+    @media screen and (max-width: 768px) {
+      margin-top: 10px;
+    }
     > h1 {
       margin: 0 auto;
-      width: max-content;
+      max-width: max-content;
       font-size: 32px;
       font-style: normal;
       font-weight: 800;
@@ -68,10 +74,12 @@ import AndroidIcon from '@/assets/images/android-icon.svg'
       text-transform: uppercase;
       color: var(--heading-color);
       transition-duration: 300ms;
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+      }
     }
     > h2 {
       margin: 40px auto 0 auto;
-      width: max-content;
       max-width: 550px;
       font-size: 20px;
       font-style: normal;
@@ -80,6 +88,10 @@ import AndroidIcon from '@/assets/images/android-icon.svg'
       text-align: center;
       color: var(--heading-color);
       transition-duration: 300ms;
+      @media screen and (max-width: 768px) {
+        margin-top: 15px;
+        font-size: 16px;
+      }
       > span {
         font-weight: 700;
       }
@@ -90,6 +102,9 @@ import AndroidIcon from '@/assets/images/android-icon.svg'
   }
   &__description {
     margin-top: 40px;
+    @media screen and (max-width: 768px) {
+      margin-top: 20px;
+    }
     > p {
       text-align: center;
       font-size: 17px;
@@ -98,6 +113,9 @@ import AndroidIcon from '@/assets/images/android-icon.svg'
       line-height: 150%;
       color: var(--text-color);
       transition-duration: 300ms;
+      @media screen and (max-width: 768px) {
+        font-size: 15px;
+      }
     }
   }
   &__buttons {
